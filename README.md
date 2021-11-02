@@ -8,6 +8,7 @@ docker build -t nginx-spa:stable .
 
 # 启动
 docker run -d -p 80:80 -v /root/app/dist:/usr/share/nginx/html --name app nginx-spa:stable
+docker run -d -p 80:80 -v /home/app/dist:/usr/share/nginx/html --name cube-web --restart always registry.cn-chengdu.aliyuncs.com/yousinnmu/nginx-spa:stable
 
 # 从阿里云拉取
 docker pull registry.cn-chengdu.aliyuncs.com/yousinnmu/nginx-spa:stable
