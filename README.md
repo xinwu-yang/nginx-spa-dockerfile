@@ -1,5 +1,5 @@
 # nginx-spa
-nginx-spa 是基于nginx:stable, 配置了 gzip / rewrite index.html的镜像
+nginx-spa 是基于nginx:stable的镜像，配置了 gzip 和 rewrite index.html。
 
 ##### Quick Start:
 ```shell script
