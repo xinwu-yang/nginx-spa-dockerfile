@@ -10,5 +10,5 @@ docker build -t registry.cn-chengdu.aliyuncs.com/yousinnmu/nginx-spa:stable .
 docker pull registry.cn-chengdu.aliyuncs.com/yousinnmu/nginx-spa:stable
 
 # 启动
-docker run -d -p 80:80 -v /app/dist:/usr/share/nginx/html --restart always --name appName nginx-spa:stable
+docker run -d -p 80:80 -v /app/dist:/usr/share/nginx/html --restart always --name name registry.cn-chengdu.aliyuncs.com/yousinnmu/nginx-spa:stable
 ```
